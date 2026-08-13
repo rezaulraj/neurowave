@@ -107,13 +107,15 @@ export default function Contact() {
               duration: shape.duration,
               repeat: Infinity,
               ease: "linear",
-            }}>
+            }}
+          >
             <svg
               width={shape.size}
               height={shape.size}
               viewBox="0 0 100 100"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg">
+              xmlns="http://www.w3.org/2000/svg"
+            >
               {shape.type === "circle" && (
                 <circle
                   cx="50"
@@ -197,7 +199,8 @@ export default function Contact() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-16">
+          className="text-center mb-16"
+        >
           <span className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-[#00D5DE]/10 to-[#0099CF]/10 text-[#0099CF] font-medium mb-4 border border-[#00D5DE]/20">
             Get In Touch
           </span>
@@ -214,11 +217,13 @@ export default function Contact() {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="space-y-8">
+            className="space-y-8"
+          >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <motion.div
                 whileHover={{ y: -5, scale: 1.02 }}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+              >
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-[#00D5DE]/10 to-[#0099CF]/10 flex items-center justify-center mb-4">
                   <Mail className="w-6 h-6 text-[#0099CF]" />
                 </div>
@@ -226,15 +231,17 @@ export default function Contact() {
                   Mail
                 </h3>
                 <Link
-                  href="mailto:jihansoft.tech@gmail.com"
-                  className="text-gray-600 text-sm break-all">
-                  jihansoft.tech@gmail.com
+                  href="mailto:neurowave.codex@gmail.com"
+                  className="text-gray-600 text-sm break-all"
+                >
+                  neurowave.codex@gmail.com
                 </Link>
               </motion.div>
 
               <motion.div
                 whileHover={{ y: -5, scale: 1.02 }}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+              >
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-[#00D5DE]/10 to-[#0099CF]/10 flex items-center justify-center mb-4">
                   <MapPin className="w-6 h-6 text-[#0099CF]" />
                 </div>
@@ -245,14 +252,14 @@ export default function Contact() {
               </motion.div>
               <motion.div
                 whileHover={{ y: -5, scale: 1.02 }}
-                className="sm:col-span-2 bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100">
+                className="sm:col-span-2 bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+              >
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-[#00D5DE]/10 to-[#0099CF]/10 flex items-center justify-center mb-4">
                   <Phone className="w-6 h-6 text-[#0099CF]" />
                 </div>
                 <h3 className="text-lg font-semibold text-[#0D2E62] mb-2">
                   Phone
                 </h3>
-                <p className="text-gray-600">+8801829708756</p>
                 <p className="text-gray-600">+8801877796011</p>
               </motion.div>
             </div>
@@ -261,7 +268,8 @@ export default function Contact() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="bg-gradient-to-r from-[#00D5DE]/5 to-[#0099CF]/5 rounded-2xl p-8 border border-[#00D5DE]/10">
+              className="bg-gradient-to-r from-[#00D5DE]/5 to-[#0099CF]/5 rounded-2xl p-8 border border-[#00D5DE]/10"
+            >
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
                   <div className="text-2xl font-bold text-[#00D5DE]">100+</div>
@@ -282,7 +290,8 @@ export default function Contact() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.5 }}
-              className="flex items-center gap-4">
+              className="flex items-center gap-4"
+            >
               <div className="flex -space-x-2">
                 {[1, 2, 3, 4].map((i) => (
                   <div
@@ -302,7 +311,8 @@ export default function Contact() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="relative">
+            className="relative"
+          >
             <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-10 border border-gray-100">
               <h3 className="text-2xl font-bold text-[#0D2E62] mb-6">
                 Describe your project
@@ -357,7 +367,8 @@ export default function Contact() {
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   type="submit"
-                  className="w-full py-4 bg-gradient-to-r from-[#00D5DE] to-[#0099CF] text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group">
+                  className="w-full py-4 bg-gradient-to-r from-[#00D5DE] to-[#0099CF] text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden group"
+                >
                   <span className="relative z-10 flex items-center justify-center gap-2">
                     SEND
                     <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
