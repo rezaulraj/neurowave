@@ -263,7 +263,7 @@ export default function Footer() {
             >
               © 2026. All rights reserved by{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00D5DE] to-[#0099CF] font-semibold">
-                JihanSoft
+              Neurowave Technologies
               </span>
             </motion.p>
 
