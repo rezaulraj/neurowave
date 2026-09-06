@@ -121,12 +121,22 @@ export default function ServicesClient() {
   const stack = [
     "React",
     "Next.js",
+    "Tailwind CSS",
     "Node.js",
+    "NestJS",
+    "PHP",
     "TypeScript",
     "Python",
     "AWS",
+    "Docker",
+    "PostgreSQL",
+    "VPS Hosting",
     "Figma",
+    "MYSQL",
+    "Redis",
     "MongoDB",
+    "RabitMQ",
+    "AI Automation",
   ];
 
   const containerVariants = {

@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "NeuroWave Tech",
   legalName: "Neurowave Technologies",
   shortName: "NeuroWave",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://neurowavetech.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://neurowavetech.online",
   description:
     "NeuroWave Tech is an AI-powered web design and development agency that designs, builds, and scales high-performing websites, web apps, and mobile apps for startups and growing businesses.",
   tagline: "AI-Powered Web Design & Development Agency",

@@ -129,27 +129,12 @@ export default function Footer() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="space-y-4"
             >
+              <h3 className="text-lg font-semibold text-[#0D2E62] mb-2">
+                Address
+              </h3>
               <p className="text-sm font-medium text-gray-600">
-                Subscribe to our newsletter
+                8/2 Shantibagh, Chowdhury Estate, Build No: 03, Floor:02
               </p>
-              <div className="flex flex-col sm:flex-row gap-3">
-                <div className="relative flex-1">
-                  <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
-                  <input
-                    type="email"
-                    placeholder="Email address"
-                    className="w-full pl-10 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:border-[#00D5DE] focus:ring-2 focus:ring-[#00D5DE]/20 text-gray-700 placeholder-gray-400 transition-all duration-300"
-                  />
-                </div>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="px-6 py-3 bg-gradient-to-r from-[#00D5DE] to-[#0099CF] text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 group"
-                >
-                  Subscribe
-                  <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </motion.button>
-              </div>
             </motion.div>
           </div>
 
@@ -263,7 +248,7 @@ export default function Footer() {
             >
               © 2026. All rights reserved by{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00D5DE] to-[#0099CF] font-semibold">
-              Neurowave Technologies
+                Neurowave Technologies
               </span>
             </motion.p>
 

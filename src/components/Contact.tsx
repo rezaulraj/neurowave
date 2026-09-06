@@ -248,7 +248,9 @@ export default function Contact() {
                 <h3 className="text-lg font-semibold text-[#0D2E62] mb-2">
                   Address
                 </h3>
-                <p className="text-gray-600 text-sm">Dhaka Bangladesh</p>
+                <p className="text-gray-600 text-sm">
+                  8/2 Shantibagh, Chowdhury Estate, Build No: 03, Floor:02
+                </p>
               </motion.div>
               <motion.div
                 whileHover={{ y: -5, scale: 1.02 }}
