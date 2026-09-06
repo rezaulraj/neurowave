@@ -204,9 +204,9 @@ export default function Contact() {
           <span className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-[#00D5DE]/10 to-[#0099CF]/10 text-[#0099CF] font-medium mb-4 border border-[#00D5DE]/20">
             Get In Touch
           </span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0D2E62] mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0D2E62] mb-4">
             Need a designer?
-          </h1>
+          </h2>
           <h2 className="text-3xl md:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#00D5DE] to-[#0099CF]">
             Let&apos;s work together
           </h2>

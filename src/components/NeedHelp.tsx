@@ -225,12 +225,12 @@ export default function NeedHelp() {
           >
             Let&apos;s Work Together
           </motion.span>
-          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-4">
             Need a successful <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00D5DE] to-[#0099CF]">
               project?
             </span>
-          </h1>
+          </h2>
 
           <motion.button
             whileHover={{ scale: 1.05 }}

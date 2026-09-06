@@ -182,9 +182,9 @@ export default function Testimonial() {
           >
             Testimonials
           </motion.span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
             From Getting Started
-          </h1>
+          </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Hear what our clients have to say about their experience working
             with us

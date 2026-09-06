@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion, Variants } from "framer-motion";
 import { ChevronRight, Home } from "lucide-react";
+import { siteConfig } from "@/lib/site";
 
 interface PageHeroProps {
   badge: string;
@@ -21,6 +23,27 @@ export default function PageHero({
   description,
   crumb,
 }: PageHeroProps) {
+  const pathname = usePathname();
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: siteConfig.url,
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: crumb,
+        item: `${siteConfig.url}${pathname}`,
+      },
+    ],
+  };
+
   const bubbleFloatAnimation: Variants = {
     initial: (custom: { x: number; y: number }) => ({
       x: custom.x,
@@ -157,6 +180,10 @@ export default function PageHero({
 
   return (
     <section className="relative min-h-screen overflow-hidden bg-gray-100 pt-32 pb-20 lg:pt-40 lg:pb-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <div className="absolute inset-0 overflow-hidden">
         {bubbles.map((bubble, index) => (
           <motion.div

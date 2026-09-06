@@ -96,14 +96,14 @@ export default function AboutUs() {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               <span className="text-[#0D2E62]">We do </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00D5DE] to-[#0099CF]">
                 design, code
               </span>
               <br />
               <span className="text-[#0D2E62]">& develop.</span>
-            </h1>
+            </h2>
 
             <p className="text-lg text-gray-600 leading-relaxed max-w-lg">
               We are a passionate team of designers and developers committed to

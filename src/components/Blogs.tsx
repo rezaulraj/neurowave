@@ -188,9 +188,9 @@ export default function Blogs() {
           <span className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-[#00D5DE]/10 to-[#0099CF]/10 text-[#0099CF] font-medium mb-4 border border-[#00D5DE]/20">
             What&apos;s Going On
           </span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0D2E62] mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0D2E62] mb-4">
             Latest Stories
-          </h1>
+          </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
             News From Abstrak And Around The World Of Web Design And Complete
             Solution of Online Digital Marketing

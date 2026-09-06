@@ -340,12 +340,12 @@ export default function CaseStudy() {
           <span className="inline-block px-4 py-2 rounded-full bg-[#00D5DE]/10 text-[#0099CF] font-medium mb-4">
             Case Studies
           </span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0D2E62] mb-6">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0D2E62] mb-6">
             Our Success{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00D5DE] to-[#0099CF]">
               Stories
             </span>
-          </h1>
+          </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Discover how we&apos;ve helped businesses transform their digital
             presence and achieve remarkable results

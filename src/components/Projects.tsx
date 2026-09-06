@@ -252,12 +252,12 @@ export default function Projects() {
           <span className="inline-block px-4 py-2 rounded-full bg-[#00D5DE]/10 text-[#0099CF] font-medium mb-4">
             Our Portfolio
           </span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0D2E62] mb-6">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0D2E62] mb-6">
             Featured{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00D5DE] to-[#0099CF]">
               Projects
             </span>
-          </h1>
+          </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Explore our latest work and see how we&apos;ve helped businesses
             transform their digital presence

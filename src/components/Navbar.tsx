@@ -163,7 +163,7 @@ export default function Navbar() {
             </Link>
 
             <div className="mt-6 text-center text-sm text-gray-500">
-              <p>© 2024 JihanSoft. All rights reserved.</p>
+              <p>© 2026 NeuroWave Tech. All rights reserved.</p>
             </div>
           </div>
         </div>
